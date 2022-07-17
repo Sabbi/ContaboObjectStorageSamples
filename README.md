@@ -1,6 +1,6 @@
 # ContaboObjectStorageSamples
 
-Some samples on who to access the Contabo Object Storage (Amazon S3 compatible Object Storage).
+Some samples on how to access the Contabo Object Storage (Amazon S3 compatible Object Storage).
 
 No error handling at all!
 
