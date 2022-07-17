@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaboObjectStorageListBuckets", "ContaboObjectStorageListBuckets\ContaboObjectStorageListBuckets.csproj", "{4786446F-4C9D-465F-AD21-59BD36D0B6D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContaboObjectStorageListBuckets", "ContaboObjectStorageListBuckets\ContaboObjectStorageListBuckets.csproj", "{4786446F-4C9D-465F-AD21-59BD36D0B6D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaboObjectStoragePutBucket", "ContaboObjectStoragePutBucket\ContaboObjectStoragePutBucket.csproj", "{5DC622FC-E9E2-4854-BE1B-ECD2F0961D0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContaboObjectStoragePutBucket", "ContaboObjectStoragePutBucket\ContaboObjectStoragePutBucket.csproj", "{5DC622FC-E9E2-4854-BE1B-ECD2F0961D0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaboObjectStoragePutObject", "ContaboObjectStoragePutObject\ContaboObjectStoragePutObject.csproj", "{37E61F1A-9BA0-49B5-9194-CFD6E178ACB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContaboObjectStoragePutObject", "ContaboObjectStoragePutObject\ContaboObjectStoragePutObject.csproj", "{37E61F1A-9BA0-49B5-9194-CFD6E178ACB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaboObjectStorageListObjects", "ContaboObjectStorageListObjects\ContaboObjectStorageListObjects.csproj", "{F3BD48C2-846A-4B6F-BC06-2119F76E0E64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{37E61F1A-9BA0-49B5-9194-CFD6E178ACB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37E61F1A-9BA0-49B5-9194-CFD6E178ACB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37E61F1A-9BA0-49B5-9194-CFD6E178ACB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3BD48C2-846A-4B6F-BC06-2119F76E0E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3BD48C2-846A-4B6F-BC06-2119F76E0E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3BD48C2-846A-4B6F-BC06-2119F76E0E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3BD48C2-846A-4B6F-BC06-2119F76E0E64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
